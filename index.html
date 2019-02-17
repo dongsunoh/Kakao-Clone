@@ -10,150 +10,150 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-
-    <title>Kakao Talk</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Friends</title>
   </head>
   <body>
     <header class="header">
       <div class="header-top">
-        <div class="header-column">
+        <div class="header-top__column">
           <i class="fas fa-signal"></i>
           <i class="fas fa-wifi"></i>
         </div>
-        <div class="header-column">
-          <span class="header-text">
+        <div class="header-top__column">
+          <span class="header-top--text">
             9:41 AM
           </span>
         </div>
-        <div class="header-column">
-          <span class="header-text">
+        <div class="header-top__column">
+          <span class="header-top--text">
             100%
           </span>
           <i class="fas fa-battery-full"></i>
         </div>
       </div>
       <div class="header-bottom">
-        <div class="header-colum">
-          <span class="header-text">Friends</span>
+        <div class="header-bottom__column">
+          <span class="header--text font-bold">Friends</span>
         </div>
-        <div class="header-colum">
-          <i class="fas fa-search"></i>
-        </div>
-        <div class="header-colum">
+        <div class="header-bottom__column">
+          <a href="search.html" class="header-bottom__search">
+            <i class="fas fa-search"></i>
+          </a>
           <i class="fas fa-cog"></i>
         </div>
       </div>
     </header>
     <main class="friends">
-      <section class="profile-section">
-        <div class="profile-section-row">
-          <a href="profile.html" class="profile-section-column">
+      <section class="section-profile">
+        <div class="section-profile-row">
+          <a href="profile.html" class="section-profile__column">
             <img src="./image/profile.jpg" alt="profile picture" />
-            <span class="profile-section-name"></span>
+            <span class="section-profile--name"></span>
           </a>
         </div>
       </section>
-      <section class="friend-section">
-        <header class="friend-section-header">
-          <div class="friend-section-header-column">
-            <span class="friend-section-header-title">Favorites</span>
+      <section class="section-friend">
+        <header class="section-friend-header">
+          <div class="section-friend-header__column">
+            <span class="section-friend-header--title">Favorites</span>
           </div>
-          <div class="friend-section-header-column">
-            <a href="#favoritesList" class="favorites-section-toggle">
+          <div class="section-friend-header__column">
+            <a href="#favoritesList" class="section-friend-header--toggle-on">
               <i class="fas fa-chevron-up"></i>
             </a>
           </div>
         </header>
-        <div class="friend-section-rows" id="favoritesList">
-          <div class="friend-section-row">
-            <div class="friend-section-column">
+        <div class="section-friend-rows" id="favoritesList">
+          <div class="section-friend-row">
+            <div class="section-friend__column">
               <img src="./image/father.jpg" alt="">
             </div>
-            <div class="friend-section-column">
-              <span class="friend-section-name">Father</span>
-              <span class="friend-section-tagline">WITH</span>
+            <div class="section-friend__column">
+              <span class="section-friend--name">Father</span>
+              <span class="section-friend--tagline">WITH</span>
             </div>
-            <span class="friend-section-music">Shape Of You - J.Fla <i class="fas fa-caret-right"></i></span>
+            <span class="section-friend--music">Shape Of You - J.Fla <i class="fas fa-caret-right"></i></span>
           </div>
-          <div class="friend-section-row">
-            <div class="friend-section-column">
+          <div class="section-friend-row">
+            <div class="section-friend__column">
               <img src="./image/mother.jpg" alt="">
             </div>
-            <div class="friend-section-column">
-              <span class="friend-section-name">Mother</span>
-              <span class="friend-section-tagline">Love</span>
+            <div class="section-friend__column">
+              <span class="section-friend--name">Mother</span>
+              <span class="section-friend--tagline">Love</span>
             </div>
-            <span class="friend-section-music">Dollar Euro Yen - Twixter <i class="fas fa-caret-right"></i></span>
+            <span class="section-friend--music">Dollar Euro Yen - Twixter <i class="fas fa-caret-right"></i></span>
           </div>
         </div>
       </section>
-      <section class="friend-section">
-        <header class="friend-section-header">
-          <div class="friend-section-header-column">
-            <span class="friend-section-header-title">Plus Friends</span>
+      <section class="section-friend">
+        <header class="section-friend-header">
+          <div class="section-friend-header__column">
+            <span class="section-friend-header--title">Plus Friends</span>
           </div>
-          <div class="friend-section-header-column">
-            <a href="#plusFriendsList" class="friend-section-toggle">
+          <div class="section-friend-header__column">
+            <a href="#plusFriendsList" class="section-friend-header--toggle-on">
               <i class="fas fa-chevron-up"></i>
             </a>
           </div>
         </header>
-        <div class="friend-section-rows" id="plusFriendsList">
-          <div class="friend-section-row">
-            <a href="plus-friends.html" class="plus-friend-section-column">
+        <div class="section-friend-rows" id="plusFriendsList">
+          <div class="section-friend-row">
+            <a href="plus-friends.html" class="section-plus-friend__column">
               <img src="./image/plus-friends.jpg" alt="" />
-              <span class="friend-section-name">Plus Friends</span>
-              <span class="friend-section-plus-friends-number">2 <i class="fas fa-chevron-right"></i></span>
+              <span class="section-friend--name">Plus Friends</span>
+              <span class="section-plus-friend__number">2 <i class="fas fa-chevron-right"></i></span>
             </a>
           </div>
         </div>
       </section>
-      <section class="friend-section">
-        <header class="friend-section-header">
-          <div class="friend-section-header-column">
-            <span class="friend-section-header-title">Friends 2</span>
+      <section class="section-friend">
+        <header class="section-friend-header">
+          <div class="section-friend-header__column">
+            <span class="section-friend-header--title">Friends 2</span>
           </div>
-          <div class="friend-section-header-column">
-            <a href="#friendsList" class="friend-section-toggle">
+          <div class="section-friend-header__column">
+            <a href="#friendsList" class="section-friend-header--toggle-on">
               <i class="fas fa-chevron-up"></i>
             </a>
           </div>
         </header>
-        <div class="friend-section-rows" id="favoritesList">
-          <div class="friend-section-row">
-            <div class="friend-section-column">
+        <div class="section-friend-rows" id="friendsList">
+          <div class="section-friend-row">
+            <div class="section-friend__column">
               <img src="./image/tom.jpg" alt="">
             </div>
-            <div class="friend-section-column">
-              <span class="friend-section-name">Tom</span>
+            <div class="section-friend__column">
+              <span class="section-friend--name">Tom</span>
             </div>
           </div>
-          <div class="friend-section-row">
-            <div class="friend-section-column">
+          <div class="section-friend-row">
+            <div class="section-friend__column">
               <img src="./image/ben.jpg" alt="">
             </div>
-            <div class="friend-section-column">
-              <span class="friend-section-name">Ben</span>
+            <div class="section-friend__column">
+              <span class="section-friend--name">Ben</span>
             </div>
           </div>
         </div>
       </section>
     </main>
     <nav class="tab-bar">
-      <a href="index.html" class="tab-bar-tab tab-selected">
+      <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
         <i class="fas fa-user"></i>
       </a>
-      <a href="chats.html" class="tab-bar-tab">
+      <a href="chats.html" class="tab-bar__tab">
         <i class="far fa-comment"></i>
       </a>
-      <a href="find.html" class="tab-bar-tab">
+      <a href="find.html" class="tab-bar__tab">
         <i class="fas fa-search"></i>
       </a>
-      <a href="more.html" class="tab-bar-tab">
+      <a href="more.html" class="tab-bar__tab">
         <i class="fas fa-ellipsis-h"></i>
       </a>
     </nav>
-    <div class="bigScreen">
+    <div class="big-screen">
       <span>Please make screen size smaller</span>
     </div>
   </body>
