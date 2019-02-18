@@ -1,0 +1,30 @@
+
+.tab-bar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #25232B;
+    padding: 3px 10px;
+}
+
+.tab-bar .tab-bar__tab {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tab-bar .tab-bar__tab i{
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.tab-bar .tab-bar__tab:hover {
+    transform: scale(1.1);
+}
+
+.tab-bar .tab-bar__tab--selected {
+    color: #ffffff;
+}

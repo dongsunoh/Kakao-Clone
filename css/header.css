@@ -39,6 +39,10 @@
     text-align: right;
 }
 
+.header-bottom .header-bottom__column:first-child {
+    padding-left: 10px;
+}
+
 .header-bottom .header-bottom__column:last-child i.fa-cog {
     margin-left: 15px;
 }

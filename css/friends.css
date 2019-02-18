@@ -1,0 +1,100 @@
+
+.friends {
+    background-color: #2D2B35;
+}
+
+.section-profile,
+.section-friend  {
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+.section-profile-row,
+.section-friend-row {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.section-profile .section-profile-row .section-profile__column,
+.section-friend .section-friend-row .section-plus-friend__column,
+.section-friend .section-friend-row .section-friend__column,
+.section-friend .section-friend-row .section-plus-friend__column {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.section-friend .section-friend-row .section-plus-friend__column {
+    flex-grow: 1;
+}
+
+.section-friend .section-friend-row .section-friend__column:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.section-friend .section-friend-row .section-friend__column:nth-child(2) > span:first-child {
+    margin-bottom: 5px;    
+}
+
+.section-friend .section-friend-row .section-friend__column:nth-child(3),
+.section-plus-friend__number {
+    flex-grow: 1;
+    color: #AAA9B3;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-plus-friend__number > i {
+    margin-left: 5px;
+}
+
+.section-friend--tagline {
+    font-size: 1rem;
+    color: #AAA9B3;
+}
+
+.section-profile .section-profile-row .section-profile__column > img,
+.section-friend .section-friend-row .section-friend__column > img,
+.section-friend .section-friend-row .section-plus-friend__column > img  {
+    width: 85px;
+    height: 80px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.section-profile--name,
+.section-plus-friend__column .section-friend--name {
+    position: relative;
+    left: 20px;
+}
+
+.section-friend .section-friend-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #AAA9B3;
+}
+
+.section-friend-header--toggle-on {
+    text-decoration: none;
+    color: #AAA9B3;
+}
+
+.section-friend--music {
+    padding: 7px 15px;
+    border: 1px solid  #AAA9B3;
+    border-radius: 15px;
+}
+
+ .section-friend .section-friend-header .section-friend-header__column:first-child {
+    padding-left: 10px;
+}
