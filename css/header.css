@@ -21,15 +21,13 @@
 }
 
 .header-bottom {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
-.header-top .header-top__column {
-    width: 33%;
-}
-
+.header-top .header-top__column,
 .header-bottom .header-bottom__column {
-    width: 49.5%;
+    /* flex: flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 33%;
 }
 
 .header-top .header-top__column:nth-of-type(2) {
@@ -39,10 +37,6 @@
 .header-top .header-top__column:last-child,
 .header-bottom .header-bottom__column:last-child {
     text-align: right;
-}
-
-.header-bottom .header-bottom__column:last-child {
-    font-size: 1.1rem;
 }
 
 .header-bottom .header-bottom__column:last-child i.fa-cog {
