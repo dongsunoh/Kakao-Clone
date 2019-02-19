@@ -82,6 +82,8 @@
     align-items: center;
     font-size: 0.9rem;
     color: #AAA9B3;
+    padding-top: 10px;
+    border-top: 1px solid rgba(90, 88, 100, 0.8);
 }
 
 .section-friend-header--toggle-on {
@@ -97,4 +99,31 @@
 
  .section-friend .section-friend-header .section-friend-header__column:first-child {
     padding-left: 10px;
+}
+
+.section-friend-header--toggle-on {
+    cursor: pointer;
+}
+
+.section-friend-rows {
+    overflow: hidden;
+    height: auto;
+    max-height: 350px;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.friends input[type="checkbox"] {
+    display: none;
+}
+
+.friends input[type="checkbox"]:checked ~ .section-friend-rows {
+    max-height: 0;
+}
+
+.section-friend-header label i {
+    transition: transform 0.5s ease-in-out;
+}
+
+.friends input[type="checkbox"]:checked + .section-friend-header label i {
+    transform: rotate(180deg);
 }
