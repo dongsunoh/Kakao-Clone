@@ -1,0 +1,39 @@
+
+.profile {
+    position: relative;
+    top: -80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.section-profile-background {
+    display: block;
+    background-image: linear-gradient( to top, rgb(226, 194, 49), rgb(200, 178, 69));
+    min-height: 600px;
+}
+
+.profile .section-profile-info .section-profile-info__header {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    position: relative;
+    top: -110px;
+}
+
+.profile .section-profile-info .section-profile-info__header img {
+    width: 135px;
+    height: 130px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.profile .section-profile-info .section-profile-info__header span {
+    margin: 15px;
+}
+
+.section-profile-info--name {
+    font-size: 1.6rem;
+}
