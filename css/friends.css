@@ -1,6 +1,6 @@
 
 .friends {
-    background-color: #2D2B35;
+    background-color: #2d2b35;
 }
 
 .section-profile,
@@ -127,3 +127,11 @@
 .friends input[type="checkbox"]:checked + .section-friend-header label i {
     transform: rotate(180deg);
 }
+
+.section-profile-row:hover,
+.section-friend-row:hover,
+.section-profile-row:active,
+.section-friend-row:active {
+    background-color: rgba(42, 39, 49, 0.8);
+}
+
