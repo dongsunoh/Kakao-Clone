@@ -51,7 +51,8 @@
     margin: 0 10px;
 }
 
-.header-bottom .header-bottom__search {
+.header-bottom .header-bottom__search,
+.header-bottom .header-bottom__create-chats {
     text-decoration: none;
     color: #ffffff;
 }
