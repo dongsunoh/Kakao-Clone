@@ -47,8 +47,8 @@
     padding-left: 10px;
 }
 
-.header-bottom .header-bottom__column:last-child i.fa-cog {
-    margin-left: 15px;
+.header-bottom .header-bottom__column:last-child i {
+    margin: 0 10px;
 }
 
 .header-bottom .header-bottom__search {
