@@ -9,6 +9,10 @@
     z-index: 10;
 }
 
+.header--background-color-transparent {
+    background-color: transparent;
+}
+
 .header-top,
 .header-bottom {
     display: flex;
@@ -49,5 +53,15 @@
 
 .header-bottom .header-bottom__search {
     text-decoration: none;
+    color: #ffffff;
+}
+
+.header-bottom__column img {
+    width: 45px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+a.header-bottom__column {
     color: #ffffff;
 }
