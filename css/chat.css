@@ -1,0 +1,131 @@
+
+
+.chat .chat__date-divider {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(127, 127, 127);
+}
+
+.chat .chat__date-divider::before,
+.chat .chat__date-divider::after {
+    content: "";
+    flex-grow: 1;
+    border-top: 1px solid rgb(127, 127, 127);
+}
+
+.chat .chat__date-divider span {
+    margin: 0 5px;
+}
+
+.chat .chat__message {
+    padding: 3px 15px;
+    display: flex;
+    margin: 15px 0;
+}
+
+.chat .chat__message-to-me {
+    justify-content: flex-start;
+}
+
+.chat .chat__message-from-me {
+    justify-content: flex-end;
+}
+
+.chat__message img {
+    width: 50px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.chat__message .chat__message__chunk {
+    padding: 3px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__message .chat__message__chunk h3 {
+    margin-bottom: 7px;
+}
+
+.chat__message .chat__message__chunk .chat__message--name {
+    color: #AAA9B3;
+}
+
+.chat__message--body {
+    position: relative;
+    padding: 10px;
+    border: 1px solid hsl(217, 5%, 60%);
+    background-color: hsl(217, 5%, 60%);
+    border-radius: 5px;
+    color: #d9d9d9;
+}
+
+.chat__message-to-me .chat__message--body::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 10px solid transparent;
+    border-top-color: hsl(217, 5%, 60%);
+    border-right-width: 0;
+    top: -1px;
+    left: -6px;
+    z-index: -1;
+}
+
+.chat__message-from-me .chat__message--body::before {
+   content: "";
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 10px solid transparent;
+    border-top-color: hsl(217, 5%, 60%);
+    border-left-width: 0;
+    top: -1px;
+    right: -6px;
+    z-index: -1;
+}
+
+.chat__message .chat__message--time {
+    align-self: flex-end;
+    color: #626367;
+    font-size: 0.9rem;
+    padding: 3px 5px;
+}
+
+.message-bar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 15px;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    color: #989FA7;
+    background-color: #313337;
+}
+
+.message-bar > i {
+    margin-right: 15px;
+}
+
+.message-bar .message-bar__body {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid #737477;
+    background-color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 40px;
+}
+
+.message-bar__body input {
+    all:unset;
+    flex-grow: 1;
+    color:#000000;
+}
