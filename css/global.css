@@ -14,6 +14,11 @@ body {
     background-color: #ffffff;
 }
 
+.body--search-theme {
+    background-color: #ffffff;
+    padding-top: 90px;
+}
+
 main {
     animation: popInMain 0.5s ease-in-out;
 }
