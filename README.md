@@ -1,5 +1,6 @@
 # Kakao-Clone
-Mobile Kakao-Talk Clone Project - Only HTML&amp;CSS Use
+Mobile Kakao-Talk Clone Project
 
 Created Mobile Kakao-Talk Clone Project
- - Black Theme apply.
+ - Only used Html&CSS.
+ - Apply Black Theme.
