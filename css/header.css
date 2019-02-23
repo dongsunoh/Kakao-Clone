@@ -13,6 +13,10 @@
     background-color: transparent;
 }
 
+.header--background-color-black-theme {
+    background-color: #323039
+}
+
 .header-top,
 .header-bottom {
     display: flex;
