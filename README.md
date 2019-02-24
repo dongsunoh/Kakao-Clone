@@ -5,6 +5,10 @@ Created Mobile Kakao-Talk Clone Project
  - Only used Html&CSS.
  - Apply Black Theme.
 
-*** 
-Link: https://dongsunoh.github.io/Kakao-Clone/
+***
 
+Kakao-Clone Link: https://dongsunoh.github.io/Kakao-Clone/
+
+***
+
+![Alt text] (/screenshot/index.html.png)
