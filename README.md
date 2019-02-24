@@ -9,6 +9,4 @@ Created Mobile Kakao-Talk Clone Project
 
 Kakao-Clone Link: https://dongsunoh.github.io/Kakao-Clone/
 
-***
-
-![Alt text] (/screenshot/index.html.png)
+<img src="/screenshot/index.html.png" alt="index.html image" height="400px"/>
